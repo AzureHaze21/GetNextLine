@@ -1,2 +1,2 @@
 # GetNextLine
-*wink emoji*
+getline replacement
