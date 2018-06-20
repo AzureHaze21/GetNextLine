@@ -39,8 +39,8 @@ char *xrealloc(char *p, size_t size)
 		c = 0;
 		while (p[c])
 		{
-				ret[c] = p[c];
-				c++;
+			ret[c] = p[c];
+			c++;
 		}
 		free(p);
 	}
@@ -73,7 +73,7 @@ char *get_next_line(int fd)
 		if ((!line || !j) &&
 		    !(line =
 		  	xrealloc(line, READ_SIZE + i + 1)))
-				return (0);
+			return (0);
 		if ((buffer[j] == '\n') && (++j))
 			return (line);
 		line[i++] = buffer[j++];
