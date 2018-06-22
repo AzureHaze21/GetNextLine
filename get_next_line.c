@@ -10,8 +10,8 @@
 #include "get_next_line.h"
 
 void my_memset(void *dst,
-		   int val,
-		   size_t size)
+	       int val,
+	       size_t size)
 {
 	char *p;
 
